@@ -1,7 +1,7 @@
 services:
   details:
     build: .
-    image: ghcr.io/niraphon22/bookinfo-details
+    image: ghcr.io/niraphon22/bookinfo-details:prd
     ports:
       - "9080:9080"
     environment:
